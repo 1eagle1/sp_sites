@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background:
+  url(/ramdan_project/img/bg.gif);
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#card1{
+  backdrop-filter: blur(2rem);
+  background-color: #FFFFFF2E;
+  border: 0.2rem double #99973F99;
+  border-radius:3rem ;
+  
+  height: 24rem;
+  width: 18rem;
+}
+pre{ 
+  text-shadow: 0 0 0.9rem #E5FF3142;
+  text-align: center;
+  font-family: cursive #99973F99;
+  font-size: 1.5rem;
+}
+::-webkit-input-placeholder{
+  color: white#ABA8A642;
+  font-weight: bold;
+  text-align: center;
+}
+.inp1{
+  font-weight: bold;
+  background-color: transparent;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: .1rem solid #000000;
+  position: relative;
+}
+.inp{
+  font-weight: bold;
+  margin-top: 2rem;
+  background-color: transparent;
+  outline: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: .1rem solid #000000;
+  position: relative;
+}
+#form{
+ display: grid;
+ place-content: center
+  
+}
+#btn{
+  margin-top: 2rem;
+  border: .2rem groove #000000C7;
+  background-color:#E7F5F687;
+  border-radius: .9rem;
+  font-weight: bold;
+}
+#btn:active {
+  background-color: #0FEFFF70;
+  border: .2rem double black;
+}
+.place1{
+  font-weight: bold;
+  position: absolute;
+  left:6rem;
+  top:8.2rem ;
+  letter-spacing: .1rem;
+  transition: .1s ;
+  pointer-events: none;
+}
+.inp1:valid ~ .place1,
+.inp1:focus ~ .place1{
+  position: absolute;
+  left: 3rem;
+  top: 7.2rem;
+  border-radius:.2rem;
+  padding: .1rem .2rem;
+  text-shadow: 0 0 .2rem #FFF41254;
+}
+.place2{
+  font-weight: bold;
+  position: absolute;
+  left:6rem;
+  top:11.4rem ;
+  letter-spacing: .1rem;
+  transition: .1s ;
+  pointer-events: none;
+}
+.inp:valid ~ .place2,
+.inp:focus ~ .place2{
+  position: absolute;
+  left: 3rem;
+  top: 10.2rem;
+  border-radius:.2rem;
+  padding: .1rem .2rem;
+  text-shadow: 0 0 .2rem #FFF41254;
+}
+#footer{
+ text-align: right;
+ text-decoration: none;
+ font-weight: bold;
+ color: #000000D4;
+ font-size: 1em;
+}
+#footer:active{
+  color: darkblue;
+}

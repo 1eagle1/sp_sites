@@ -4,7 +4,7 @@
 }
 body{
   background:
-  url(bg.gif);
+  url("bg.gif");
   position: center;
   background-repeat: no-repeat;
   background-size: cover;
